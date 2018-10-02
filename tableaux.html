@@ -4,9 +4,48 @@
     <meta name = "viewport" content = "width=device-width, initial-scale=1.0">
     <meta http-equiv = "X-UA-Compatible" content = "ie=edge">
     <meta charset = "UTF-8">
+    <meta name="description" content="Ceci est une description" />
+    <meta name="keywords" content="tableau" />
     <title>Tableau Révision</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 <body>
-    
+    <table class="striped centered reponsive-table">
+        <caption style="caption-side: bottom;">Titre du tableau</caption>
+        <colgroup span="1" style="background-color: red;"></colgroup>
+        <colgroup span="1" style="background-color: blue;"></colgroup>
+        <colgroup span="1" style="background-color: green;"></colgroup>
+        <thead>
+            <tr>
+                <th>Pays</th>
+                <th>Consommation en Tonnes</th>
+                <th>Pourcentage de la consommation mondiale</th>
+            </tr>
+        </thead>
+        <tfoot>
+            <tr>
+                <td style="text-align: center;">Monde</td>
+                <td style="text-align: center;">10000</td>
+                <td style="text-align: center;">100</td>
+            </tr>
+        </tfoot>
+        <tbody>
+            <tr>
+                <td>France</td>
+                <td>3512</td>
+                <td>35.12</td>
+            </tr>
+            <tr>
+                <td>Allemagne</td>
+                <td>4450</td>
+                <td>44.50</td>
+            </tr>
+            <tr>
+                <td>Liechtenstein</td>
+                <td>2038</td>
+                <td>20.38</td>
+            </tr>
+        </tbody>
+    </table>
 </body>
 </html>

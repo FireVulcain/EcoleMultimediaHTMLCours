@@ -5,8 +5,16 @@
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <meta charset="UTF-8">
     <title>Canvas</title>
+    <link rel="stylesheet" href="assets/reset.css">
+    <link rel="stylesheet" href="assets/style.css">
 </head>
 <body>
-    
+    <canvas id="myCanvas" width="700" height="650">Ne fonctionne pas !</canvas>
+
+    <script>
+        let myCanvas = document.getElementById("myCanvas");
+        let context = myCanvas.getContext("2d");
+        context.fillRect(20,20,450,400);
+    </script>
 </body>
 </html>
